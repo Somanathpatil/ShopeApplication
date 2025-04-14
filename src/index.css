@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.red{
+    background-color: red;
+    color: white;
+    border-radius: 20%;
+}
+
+Nav ,li{
+    text-decoration: none;
+}
