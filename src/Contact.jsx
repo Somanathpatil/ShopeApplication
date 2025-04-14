@@ -16,8 +16,8 @@ const Contact = () => {
   };
 
   return (
-    <div id='contact' className='bg-gradient-to-r overflow-hidden from-[#BBEEE0] to-[#E3E2E1] h-[90vh] w-full'>
-      <div className='grid grid-cols-2'>
+    <div id='contact' className='bg-gradient-to-r overflow-hidden from-[#BBEEE0] to-[#E3E2E1] h-[73vh] w-full'>
+      <div className='grid grid-cols-2 p-2'>
         <div className='flex flex-col justify-center items-center p-4'>
           <h1 className='text-3xl py-4 px-3 font-bold'>Connect with us</h1>
           <div className='px-4 py-4'>
@@ -104,6 +104,9 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <footer className='flex justify-center items-center px-7 py-4 h-[6vh] bg-gray-500'>
+        <h2 className='text-xl font-bold'>patilsomanath292@copywrite.com</h2>
+      </footer>
     </div>
   );
 };
